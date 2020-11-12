@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project01.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#0FBE4E" Padding="24" CornerRadius="0">
+            <Label Text="First time using Xamarin!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Hello world!" FontSize="Title" BackgroundColor="#68FC87" HorizontalOptions="Center" Padding="30,10,30,10"/>
+        <Label Text="I'm just  going to try my best to learn as much as I can during this class" FontSize="20" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0" HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="This is just an example "/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label Text="By Jorge Piantini" HorizontalOptions="EndAndExpand" FontSize="16"/>
+    </StackLayout>
+
+</ContentPage>
