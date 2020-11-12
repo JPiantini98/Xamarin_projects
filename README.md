@@ -1,2 +1,2 @@
-# Xamarin_projects
-This repository content all my projects and assignments from my class of Mobile Apps Development from my university.
+# Project 01
+This project has a blank Xamarin Form aplication with some UI changes
